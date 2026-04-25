@@ -39,3 +39,44 @@
 
 # debug information files
 *.dwo
+
+# VS Code Settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio Settings
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+build/
+bin/
+obj/
+out/
+
+# Visual Studio cache/options
+.vs/
+
+# Rider (if applicable)
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
