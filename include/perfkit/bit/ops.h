@@ -101,7 +101,7 @@ inline uint32_t rotate_bits_left(uint32_t x, int n)
 /// @param x the value to rotate
 /// @param n the number of places to rotate
 /// @return the rotated value
-inline uint32_t rotate_bits_left(uint32_t x, int n)
+inline uint32_t rotate_bits_right(uint32_t x, int n)
 { return (x >> n) | (x << (32 - n)); }
 
 } // namespace perfkit::bit
