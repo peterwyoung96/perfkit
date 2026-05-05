@@ -14,5 +14,6 @@ With modern C++ being so optimized, a lot of standard methods are already optimi
 
 ```cpp
 #include <perfkit/subfolder/class.h>
+```
 
 For examples on how to use these functions, check the examples folder for runnable executables.
